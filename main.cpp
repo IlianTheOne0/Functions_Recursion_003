@@ -12,13 +12,6 @@ using std::mt19937;
 using std::uniform_int_distribution;
 using std::setw;
 
-template<typename TValue>
-void delete_value(TValue*& value)
-{
-    delete value;
-    value = nullptr;
-}
-
 template<typename TValueL>
 void delete_value(TValueL*& value, char indicator)
 {
