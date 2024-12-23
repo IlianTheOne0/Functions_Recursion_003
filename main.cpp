@@ -54,7 +54,7 @@ void calc(TValue* arr, int i, int j = 1)
 {
     if (j == 1)
     {
-        cout << i << ". ";
+        cout << setw(2) << i << ". ";
         cout << setw(2) << arr[i] << " == ";
     }
 
